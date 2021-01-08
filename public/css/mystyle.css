@@ -1,0 +1,364 @@
+@font-face {
+    font-family: 'UTM Avo Regular';
+    src: url("../fonts/UTMAvo.eot");
+    src: url("../fonts/UTMAvo.eot?#iefix") format("embedded-opentype"), url("../fonts/UTMAvo.woff2") format("woff2"), url("../fonts/UTMAvo.woff") format("woff"), url("../fonts/UTMAvo.ttf") format("truetype"), url("../fonts/UTMAvo.svg#UTMAvo") format("svg");
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'UTM Avo Bold';
+  src: url("../fonts/UTMAvoBold.eot");
+  src: url("../fonts/UTMAvoBold.eot?#iefix") format("embedded-opentype"), url("../fonts/UTMAvoBold.woff2") format("woff2"), url("../fonts/UTMAvoBold.woff") format("woff"), url("../fonts/UTMAvoBold.ttf") format("truetype"), url("../fonts/UTMAvoBold.svg#UTMAvoBold") format("svg");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+    font-family: 'UTM HelvetIns';
+  src: url("../fonts/UTMHelvetIns.eot");
+  src: url("../fonts/UTMHelvetIns.eot?#iefix") format("embedded-opentype"), url("../fonts/UTMHelvetIns.woff2") format("woff2"), url("../fonts/UTMHelvetIns.woff") format("woff"), url("../fonts/UTMHelvetIns.ttf") format("truetype"), url("../fonts/UTMHelvetIns.svg#UTMHelvetIns") format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+#page-restaurant .section-1 .section__intro .section__intro--left h2 {
+    font-size: 19px;
+    font-family: "UTM Avo Bold";
+    color: #61b1da;
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 1.263;
+}
+
+#page-restaurant .section-1 .section__intro .section__intro--left p {
+    font-size: 16px;
+    font-family: "UTM Avo Regular";
+    color: #111111;
+    line-height: 1.5;
+}
+
+h2.h2-padding {
+    margin-left: 74px;
+    position: relative;
+}
+
+h2.h2-padding:before {
+    content: '';
+    width: 64px;
+    height: 8px;
+    top: 50%;
+    transform: translateY(-50%);
+    left: -74px;
+    background: #61b1da;
+    position: absolute;
+}
+
+#page-restaurant .section-1 .section__intro {
+    max-width: 1138px;
+    margin: 0 auto 90px;
+    display: flex;
+}
+
+#page-restaurant .section-1 .section__intro .section__intro--left {
+    width: 59.57821%;
+}
+
+#page-restaurant .section-1 .section__intro .section__intro--right {
+    width: 34.0949%;
+}
+
+#page-restaurant .section-1 .section__intro .section__intro--right img {
+    position: relative;
+    right: -78px;
+}
+
+#page-restaurant .section-2 .section__download {
+    padding: 100px 0;
+    background: url("../images/bg-section2.jpg");
+    background-attachment: fixed;
+    background-position: center center;
+    text-align: center;
+}
+
+#page-restaurant .section-2 .section__download p {
+    font-size: 23px;
+    font-family: "UTM Avo Regular";
+    color: #61b1da;
+    text-transform: uppercase;
+    line-height: 1.043;
+}
+
+#page-restaurant .section-2 .section__download h2 {
+    font-size: 52px;
+    font-family: "UTM HelvetIns";
+    color: #ffffff;
+    text-transform: uppercase;
+    line-height: 1.615;
+    position: relative;
+}
+
+#page-restaurant .section-2 .section__download h2:before {
+    content: '';
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 1252px;
+    height: 4px;
+    background: url(../images/h2-before-download.png) no-repeat;
+    position: absolute;
+}
+
+#page-restaurant .section-2 .section__download .section__download--btn {
+    display: inline-block;
+    margin-top: 40px;
+    position: relative;
+    z-index: 1;
+}
+
+#page-restaurant .section-2 .section__download .section__download--btn a {
+    font-size: 20px;
+    font-family: "UTM Avo Bold";
+    color: #ffffff;
+    font-weight: bold;
+    text-decoration: underline;
+    text-transform: uppercase;
+    line-height: 1.2;
+    text-align: center;
+    padding: 15px 30px 22px;
+    background: #61b1da;
+    position: relative;
+}
+
+#page-restaurant .section-2 .section__download .section__download--btn:before {
+    content: '';
+    width: 654px;
+    height: 79px;
+    top: -25px;
+    left: -7px;
+    background: url(../images/before-a-download.png) no-repeat;
+    position: absolute;
+    z-index: -1;
+}
+
+#page-restaurant .section-3 .section__work {
+    background: #61b1da;
+    padding: 100px 387px 103px 382px;
+}
+
+#page-restaurant .section-3 .section__work h2 {
+    font-size: 30px;
+    font-family: "UTM Avo Regular";
+    color: #ffffff;
+    text-transform: uppercase;
+    line-height: 1.2;
+}
+
+#page-restaurant .section-3 .section__work .section__work--wrap {
+    display: flex;
+    position: relative;
+}
+
+#page-restaurant .section-3 .section__work .section__work--wrap .work--left {
+    display: flex;
+}
+
+#page-restaurant .section-3 .section__work .section__work--wrap .work--left .work__left--100 h4 {
+    font-size: 61px;
+    font-family: "UTM Avo Bold";
+    color: #ffef3c;
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 1;
+    margin-bottom: 0;
+}
+
+#page-restaurant .section-3 .section__work .section__work--wrap .work--left .work__left--text {
+    width: 47%;
+    border: 8px solid #ffef3c;
+    padding: 25px 228px 25px 25px;
+    margin-left: 30px;
+    margin-top: 15px;
+}
+
+#page-restaurant .section-3 .section__work .section__work--wrap .work--left .work__left--text p {
+    font-size: 16px;
+    font-family: "UTM Avo Regular";
+    color: #ffffff;
+    line-height: 1.375;
+}
+
+#page-restaurant .section-3 .section__work .section__work--wrap .work--right {
+    position: absolute;
+    right: 0;
+    top: 60px;
+}
+
+#page-restaurant .section-4 .section__custom {
+    max-width: 1138px;
+    margin: 0 auto;
+    padding: 110px 0 90px;
+}
+
+#page-restaurant .section-4 .section__custom h2 {
+    font-size: 40px;
+    font-family: "UTM Avo Bold";
+    color: #61b1da;
+    font-weight: bold;
+    line-height: 1.2;
+    text-align: center;
+    padding: 0 42px 40px;
+    margin-bottom: 40px;
+    position: relative;
+}
+
+#page-restaurant .section-4 .section__custom h2:before {
+    content: '';
+    width: 100%;
+    height: 4px;
+    bottom: 0;
+    left: 0;
+    background: url("../images/before-custome.png") no-repeat;
+    position: absolute;
+}
+
+#page-restaurant .section-4 .section__custom p {
+    font-size: 16px;
+    font-family: "UTM Avo Regular";
+    color: #1b1b1b;
+    text-transform: uppercase;
+    line-height: 1.5;
+}
+
+#page-restaurant .section-4 .section__custom p.bg-gray {
+    text-transform: unset;
+    background: #f3f3f3;
+    text-align: center;
+    padding: 25px 50px;
+}
+
+#page-restaurant .section-4 .section__custom ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    margin-bottom: 30px;
+}
+
+#page-restaurant .section-4 .section__custom ul li {
+    font-size: 16px;
+    font-family: "UTM Avo Regular";
+    color: #1b1b1b;
+    line-height: 1.75;
+    position: relative;
+    padding-left: 20px;
+    margin-left: 20px;
+}
+
+#page-restaurant .section-4 .section__custom ul li:before {
+    content: '';
+    width: 8px;
+    height: 8px;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 0;
+    background: #61b1da;
+    position: absolute;
+}
+
+#page-restaurant .section-5 .section__ready {
+    background: url("../images/bg-ready.jpg") no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+    text-align: center;
+    padding: 108px 0 108px;
+}
+
+#page-restaurant .section-5 .section__ready h4 {
+    font-size: 36.5px;
+    font-family: "UTM Avo Bold";
+    color: #7bd2ff;
+    font-weight: bold;
+    line-height: 1.562;
+}
+
+#page-restaurant .section-5 .section__ready p {
+    font-size: 16px;
+    font-family: "UTM Avo Regular";
+    color: #ffffff;
+    line-height: 1.5;
+    padding: 0 34%;
+}
+
+#page-restaurant .section-5 .section__ready .btn-call {
+    display: inline-block;
+    margin-top: 60px;
+    position: relative;
+    z-index: 1;
+}
+
+#page-restaurant .section-5 .section__ready .btn-call:before {
+    content: '';
+    width: 176px;
+    height: 63px;
+    top: -18px;
+    left: -4px;
+    background: url("../images/before-call.png") no-repeat;
+    position: absolute;
+    z-index: -1;
+}
+
+#page-restaurant .section-5 .section__ready .btn-call a {
+    font-size: 25px;
+    font-family: "UTM Avo Bold";
+    color: #ffffff;
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 0.957;
+    background: #7bd2ff;
+    padding: 6px 15px 11px;
+    text-decoration: none;
+}
+
+#page-restaurant .section-6 {
+    background: #f3f3f3;
+}
+
+#page-restaurant .section-6 .section__world {
+    max-width: 1138px;
+    margin: 0 auto;
+}
+
+#page-restaurant .section-6 .section__world .world__item .world__item--quotes {
+    background: #ffffff;
+    width: 33%;
+    margin: 0 10px;
+}
+
+#page-restaurant .section-6 .section__world .world__item .world__item--quotes .quotes p {
+    font-size: 200px;
+    font-family: "UTM Avo Bold";
+    color: #e4e4e4;
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 0.12;
+    text-align: center;
+}
+
+#page-restaurant .section-6 .section__world .world__item .world__item--quotes .content p {
+    font-size: 16px;
+    font-family: "UTM Avo Regular";
+    color: #2b2b2b;
+    line-height: 1.5;
+    text-align: center;
+}
+
+#page-restaurant .section-6 .section__world .world__item .world__item--quotes .author h4 {
+    font-size: 30px;
+    font-family: "UTM Avo Bold";
+    color: #2b2b2b;
+    font-weight: bold;
+    line-height: 1.2;
+}

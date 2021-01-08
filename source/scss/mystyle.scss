@@ -1,0 +1,41 @@
+@font-face {
+  font-family: 'UTM Avo Regular';
+  src: url('../fonts/UTMAvo.eot');
+  src: url('../fonts/UTMAvo.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/UTMAvo.woff2') format('woff2'),
+    url('../fonts/UTMAvo.woff') format('woff'),
+    url('../fonts/UTMAvo.ttf') format('truetype'),
+    url('../fonts/UTMAvo.svg#UTMAvo') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'UTM Avo Bold';
+  src: url('../fonts/UTMAvoBold.eot');
+  src: url('../fonts/UTMAvoBold.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/UTMAvoBold.woff2') format('woff2'),
+    url('../fonts/UTMAvoBold.woff') format('woff'),
+    url('../fonts/UTMAvoBold.ttf') format('truetype'),
+    url('../fonts/UTMAvoBold.svg#UTMAvoBold') format('svg');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'UTM HelvetIns';
+  src: url('../fonts/UTMHelvetIns.eot');
+  src: url('../fonts/UTMHelvetIns.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/UTMHelvetIns.woff2') format('woff2'),
+    url('../fonts/UTMHelvetIns.woff') format('woff'),
+    url('../fonts/UTMHelvetIns.ttf') format('truetype'),
+    url('../fonts/UTMHelvetIns.svg#UTMHelvetIns') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@import 'component/header';
+@import 'page/home';

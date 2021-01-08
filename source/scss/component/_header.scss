@@ -1,0 +1,31 @@
+%h2 {
+    font-size: 19px;
+    font-family: "UTM Avo Bold";
+    color: #61b1da;
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 1.263;
+}
+
+%p {
+    font-size: 16px;
+    font-family: "UTM Avo Regular";
+    color: #111111;
+    line-height: 1.5;
+}
+
+h2.h2-padding {
+    margin-left: 74px;
+    position: relative;
+
+    &:before {
+        content: '';
+        width: 64px;
+        height: 8px;
+        top: 50%;
+        transform: translateY(-50%);
+        left: -74px;
+        background: #61b1da;
+        position: absolute;
+    }
+}
