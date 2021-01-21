@@ -4,22 +4,17 @@
             max-width: 1138px;
             margin: 0 auto 90px;
             display: flex;
-
             .section__intro--left {
                 width: (678px/1138px)*100%;
-
                 h2 {
                     @extend %h2;
                 }
-
                 p {
                     @extend %p;
                 }
             }
-
             .section__intro--right {
                 width: (388px/1138px)*100%;
-
                 img {
                     position: relative;
                     right: -78px;
@@ -27,7 +22,6 @@
             }
         }
     }
-
     .section-2 {
         .section__download {
             padding: 100px 0;
@@ -35,7 +29,6 @@
             background-attachment: fixed;
             background-position: center center;
             text-align: center;
-
             p {
                 font-size: 23px;
                 font-family: "UTM Avo Regular";
@@ -43,7 +36,6 @@
                 text-transform: uppercase;
                 line-height: 1.043;
             }
-
             h2 {
                 font-size: 52px;
                 font-family: "UTM HelvetIns";
@@ -51,7 +43,6 @@
                 text-transform: uppercase;
                 line-height: 1.615;
                 position: relative;
-
                 &:before {
                     content: '';
                     top: 0;
@@ -63,13 +54,11 @@
                     position: absolute;
                 }
             }
-
             .section__download--btn {
                 display: inline-block;
                 margin-top: 40px;
                 position: relative;
                 z-index: 1;
-
                 a {
                     font-size: 20px;
                     font-family: "UTM Avo Bold";
@@ -83,7 +72,6 @@
                     background: #61b1da;
                     position: relative;
                 }
-
                 &:before {
                     content: '';
                     width: 654px;
@@ -97,12 +85,10 @@
             }
         }
     }
-
     .section-3 {
         .section__work {
             background: #61b1da;
             padding: 100px 387px 103px 382px;
-
             h2 {
                 font-size: 30px;
                 font-family: "UTM Avo Regular";
@@ -110,14 +96,11 @@
                 text-transform: uppercase;
                 line-height: 1.2;
             }
-
             .section__work--wrap {
                 display: flex;
                 position: relative;
-
                 .work--left {
                     display: flex;
-
                     .work__left--100 {
                         h4 {
                             font-size: 61px;
@@ -129,14 +112,12 @@
                             margin-bottom: 0;
                         }
                     }
-
                     .work__left--text {
                         width: 47%;
                         border: 8px solid #ffef3c;
                         padding: 25px 228px 25px 25px;
                         margin-left: 30px;
                         margin-top: 15px;
-
                         p {
                             font-size: 16px;
                             font-family: "UTM Avo Regular";
@@ -145,7 +126,6 @@
                         }
                     }
                 }
-
                 .work--right {
                     position: absolute;
                     right: 0;
@@ -154,13 +134,11 @@
             }
         }
     }
-
     .section-4 {
         .section__custom {
             max-width: 1138px;
             margin: 0 auto;
             padding: 110px 0 90px;
-
             h2 {
                 font-size: 40px;
                 font-family: "UTM Avo Bold";
@@ -171,7 +149,6 @@
                 padding: 0 42px 40px;
                 margin-bottom: 40px;
                 position: relative;
-
                 &:before {
                     content: '';
                     width: 100%;
@@ -182,14 +159,12 @@
                     position: absolute;
                 }
             }
-
             p {
                 font-size: 16px;
                 font-family: "UTM Avo Regular";
                 color: #1b1b1b;
                 text-transform: uppercase;
                 line-height: 1.5;
-
                 &.bg-gray {
                     text-transform: unset;
                     background: #f3f3f3;
@@ -197,13 +172,11 @@
                     padding: 25px 50px;
                 }
             }
-
             ul {
                 margin: 0;
                 padding: 0;
                 list-style: none;
                 margin-bottom: 30px;
-
                 li {
                     font-size: 16px;
                     font-family: "UTM Avo Regular";
@@ -212,7 +185,6 @@
                     position: relative;
                     padding-left: 20px;
                     margin-left: 20px;
-
                     &:before {
                         content: '';
                         width: 8px;
@@ -227,7 +199,6 @@
             }
         }
     }
-
     .section-5 {
         .section__ready {
             background: url('../images/bg-ready.jpg')no-repeat;
@@ -235,7 +206,6 @@
             background-position: center center;
             text-align: center;
             padding: 108px 0 108px;
-
             h4 {
                 font-size: 36.5px;
                 font-family: "UTM Avo Bold";
@@ -243,7 +213,6 @@
                 font-weight: bold;
                 line-height: 1.562;
             }
-
             p {
                 font-size: 16px;
                 font-family: "UTM Avo Regular";
@@ -251,13 +220,11 @@
                 line-height: 1.5;
                 padding: 0 34%;
             }
-
             .btn-call {
                 display: inline-block;
                 margin-top: 60px;
                 position: relative;
                 z-index: 1;
-
                 &:before {
                     content: '';
                     width: 176px;
@@ -268,9 +235,7 @@
                     position: absolute;
                     z-index: -1;
                 }
-
                 a {
-
                     font-size: 25px;
                     font-family: "UTM Avo Bold";
                     color: #ffffff;
@@ -280,26 +245,22 @@
                     background: #7bd2ff;
                     padding: 6px 15px 11px;
                     text-decoration: none;
-
-
                 }
             }
         }
     }
-
     .section-6 {
         background: #f3f3f3;
-
+        padding-top: 80px;
         .section__world {
             max-width: 1138px;
             margin: 0 auto;
-
+            padding-bottom: 60px;
             .world__item {
                 .world__item--quotes {
                     background: #ffffff;
                     width: 33%;
                     margin: 0 10px;
-
                     .quotes {
                         p {
                             font-size: 200px;
@@ -311,7 +272,6 @@
                             text-align: center;
                         }
                     }
-
                     .content {
                         p {
                             font-size: 16px;
@@ -321,7 +281,6 @@
                             text-align: center;
                         }
                     }
-
                     .author {
                         h4 {
                             font-size: 30px;
@@ -330,6 +289,9 @@
                             font-weight: bold;
                             line-height: 1.2;
                         }
+                    }
+                    &.slick-center {
+                        margin-top: 40px;
                     }
                 }
             }

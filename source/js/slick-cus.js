@@ -1,5 +1,4 @@
-// -----------------slick----------
-jQuery(document).ready(function () {
+jQuery(document).ready(function() {
 
     jQuery('.world__item').slick({
         autoplay: true,
@@ -19,14 +18,15 @@ jQuery(document).ready(function () {
         adaptiveHeight: true,
         focusOnSelect: true,
         centerMode: true,
-        centerPadding: '60px'
+        variableWidth: false,
+        centerPadding: '0px'
     });
 
-    jQuery(".btn-prev").click(function (event) {
+    jQuery(".btn-prev").click(function(event) {
         event.preventDefault();
         jQuery(".slick-mobile").slick("slickPrev");
     })
-    jQuery(".btn-next").click(function (event) {
+    jQuery(".btn-next").click(function(event) {
         event.preventDefault();
         jQuery(".slick-mobile").slick("slickNext");
     })

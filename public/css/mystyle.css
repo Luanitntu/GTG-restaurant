@@ -324,11 +324,13 @@ h2.h2-padding:before {
 
 #page-restaurant .section-6 {
     background: #f3f3f3;
+    padding-top: 80px;
 }
 
 #page-restaurant .section-6 .section__world {
     max-width: 1138px;
     margin: 0 auto;
+    padding-bottom: 60px;
 }
 
 #page-restaurant .section-6 .section__world .world__item .world__item--quotes {
@@ -361,4 +363,8 @@ h2.h2-padding:before {
     color: #2b2b2b;
     font-weight: bold;
     line-height: 1.2;
+}
+
+#page-restaurant .section-6 .section__world .world__item .world__item--quotes.slick-center {
+    margin-top: 40px;
 }
